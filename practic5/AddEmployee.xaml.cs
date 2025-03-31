@@ -27,6 +27,7 @@ namespace practic5
         public AddEmployee()
         {
             InitializeComponent();
+            LoadJobTitles();
         }
 
         private void LoadJobTitles()

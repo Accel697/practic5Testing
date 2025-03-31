@@ -37,7 +37,7 @@ namespace practic5
         {
             using (var context = new testing5Entities())
             {
-                _employeesList = context.employees.ToList();
+                _employeesList = context.employees.Include("jobTitles").ToList();
                 EmployeesListView.ItemsSource = _employeesList;
             }
         }

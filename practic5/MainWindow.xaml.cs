@@ -23,12 +23,12 @@ namespace practic5
         public MainWindow()
         {
             InitializeComponent();
+            FrmMain.Navigate(new Autho());
         }
 
         private void btnBack_Click(object sender, RoutedEventArgs e)
         {
             FrmMain.GoBack();
-            FrmMain.Navigate(new Autho());
         }
 
         private void FrmMain_ContentRendered(object sender, EventArgs e)

@@ -35,7 +35,7 @@
                         <Border Margin="10" Padding="10" BorderThickness="1" CornerRadius="5" BorderBrush="Gray">
                             <StackPanel Width="250">
                                 <TextBlock Text="{Binding fullName}" HorizontalAlignment="Center" FontWeight="Bold" Margin="0, 0, 0, 5"/>
-                                <TextBlock Text="{Binding positionAtWork}" HorizontalAlignment="Center" Margin="0, 0, 0, 5"/>
+                                <TextBlock Text="{Binding jobTitles.title}" HorizontalAlignment="Center" Margin="0, 0, 0, 5"/>
                                 <TextBlock Text="{Binding phoneNumber}" HorizontalAlignment="Center"/>
                             </StackPanel>
                         </Border>
