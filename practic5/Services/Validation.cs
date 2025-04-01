@@ -58,6 +58,5 @@ namespace practic5.Services
                 return (errors.Count == 0, errors);
             }
         }
-
     }
 }
